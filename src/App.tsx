@@ -1,25 +1,70 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { makeStyles, Toolbar, Paper, ThemeProvider, Divider } from '@material-ui/core';
+import { GlobalStyle } from './styles/global';
+import { Header } from './components/Header';
+import { createServer, Model } from 'miragejs';
+import defaultTheme from './styles/theme/applicationTheme';
+import { SectionHero } from './components/SectionHero';
+import { SectionDigitalWallet } from './components/SectionDigitalWallet';
+import { SectionPrivacy } from './components/SectionPrivacy';
+import { SectionWhere } from './components/SectionWhere';
+import { SectionBlockchain } from './components/SectionBlockchain';
+import { SectionGlobalStandard } from './components/SectionGlobalStandard';
+import { SectionTutorial } from './components/SectionTutorial';
+import { SectionPlans } from './components/SectionPlans';
+import { SectionPrograms } from './components/SectionPrograms';
+import { SectionBestPlan } from './components/SectionBestPlan';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+  },
+  title: {
+    flexGrow: 1,
+  },
+}));
+
+createServer({
+  models: {
+    transaction: Model
+  },
+})
 
 function App() {
+  const classes = useStyles();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={defaultTheme}>
+      <div className="App">
+        <Paper elevation={0}>
+          <Header />
+          <Divider />
+          <SectionHero />
+          <Divider />
+          <SectionDigitalWallet />
+          <Divider />
+          <SectionPrivacy />
+          <Divider />
+          <SectionWhere />
+          <Divider />
+          <SectionBlockchain />
+          <Divider />
+          <SectionGlobalStandard />
+          <Divider />
+          <SectionTutorial />
+          <Divider />
+          <SectionPlans />
+          <Divider />
+          <SectionPrograms />
+          <Divider />
+          <SectionBestPlan />
+        </Paper>
+        <GlobalStyle />
+      </div>
+    </ThemeProvider>
   );
 }
 
