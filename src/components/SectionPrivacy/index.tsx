@@ -7,7 +7,7 @@ export function SectionPrivacy() {
     <Container>
       <div>
         <Grid container spacing={4}>
-          <Grid item xs={6}>
+          <Grid item xs={6} data-aos="fade-up">
             <Typography variant="h4" component="h4" style={{ fontWeight: 'bold', color: 'white' }}>
               Privacidade em Primeiro Lugar
             </Typography>

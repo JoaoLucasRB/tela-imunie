@@ -6,7 +6,7 @@ import { Container } from './styles';
 export function SectionPrograms() {
   return (
     <Container>
-      <span>
+      <span data-aos="fade-up">
         <Typography variant="h4" component="h4" style={{ fontWeight: 'bold' }}>
           Programas de Vacinação no Brasil
         </Typography>
@@ -20,8 +20,8 @@ export function SectionPrograms() {
         </Button>
       </span>
       <div>
-        <div>
-          <div>
+        <div data-aos="fade-up">
+          <div data-aos="fade-up">
             <Typography variant="h6" component="h6" style={{ fontWeight: 'bold' }}>
               Calendário Nacional de Vacinação 2020
             </Typography>
@@ -33,7 +33,7 @@ export function SectionPrograms() {
             <ChevronRight />
           </div>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <div>
             <Typography variant="h6" component="h6" style={{ fontWeight: 'bold' }}>
               Calendário de Vacinação a SBP
@@ -46,7 +46,7 @@ export function SectionPrograms() {
             <ChevronRight />
           </div>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <div>
             <Typography variant="h6" component="h6" style={{ fontWeight: 'bold' }}>
               Calendário Único SBIm

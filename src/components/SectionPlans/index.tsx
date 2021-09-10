@@ -5,7 +5,7 @@ import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 export function SectionPlans() {
   return (
     <Container>
-      <span>
+      <span data-aos="fade-up">
         <Typography variant="h4" component="h4" style={{ fontWeight: 'bold' }}>
           Nossos Planos
         </Typography>
@@ -14,7 +14,7 @@ export function SectionPlans() {
         </Typography>
       </span>
       <div>
-        <div>
+        <div data-aos="fade-up">
           <Typography variant="h5" component="h5" style={{ fontWeight: 'bold' }}>
             Starter
           </Typography>
@@ -58,7 +58,7 @@ export function SectionPlans() {
             </Typography>
           </Button>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Typography variant="h5" component="h5" style={{ fontWeight: 'bold' }}>
             Full
           </Typography>
@@ -105,7 +105,7 @@ export function SectionPlans() {
             Experimente grátis por 90 dias
           </Typography>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Typography variant="h5" component="h5" style={{ fontWeight: 'bold' }}>
             Premium
           </Typography>

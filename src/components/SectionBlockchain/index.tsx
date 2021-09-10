@@ -13,29 +13,29 @@ export function SectionBlockchain() {
         >
           <Grid item xs={6}>
             <div className="container-left">
-              <Typography variant="h4" component="h4" style={{ fontWeight: 'bold', color: '#2d3748' }}>
+              <Typography variant="h4" component="h4" style={{ fontWeight: 'bold', color: '#2d3748' }} data-aos="fade-up">
                 Tecnologia Blockchain
               </Typography>
-              <Typography variant="h6" component="h6">
+              <Typography variant="h6" component="h6" data-aos="fade-up">
                 A autenticação dos registros de vacinação inseridos na sua Carteira Digital de Vacinação e Saúde Immunie utiliza dois níveis de encriptação para garantir a autenticidade dos dados, preservando sua privacidade.
               </Typography>
               <div>
-                <Typography variant="subtitle1" component="span">
+                <Typography variant="subtitle1" component="span" data-aos="fade-up">
                   <img src={YellowCheck} />
                   Disponibilidade Global
                 </Typography>
-                <Typography variant="subtitle1" component="span">
+                <Typography variant="subtitle1" component="span" data-aos="fade-up">
                   <img src={YellowCheck} />
                   Aplicação Mobile e Web
                 </Typography>
-                <Typography variant="subtitle1" component="span">
+                <Typography variant="subtitle1" component="span" data-aos="fade-up">
                   <img src={YellowCheck} />
                   Tecnologia PWA em qualquer smartphone
                 </Typography>
               </div>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={6} data-aos="fade-up">
             <div className="container-right">
               <img src={Blockchain} />
             </div>

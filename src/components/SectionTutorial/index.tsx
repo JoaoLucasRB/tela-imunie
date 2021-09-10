@@ -7,7 +7,7 @@ import Check from '../../assets/check.svg';
 export function SectionTutorial() {
   return (
     <Container>
-      <span>
+      <span data-aos="fade-up">
         <Typography variant="h4" component="h4" style={{ fontWeight: 'bold' }}>
         COMO FUNCIONA
         </Typography>
@@ -16,7 +16,7 @@ export function SectionTutorial() {
         </Typography>
       </span>
       <div>
-        <div>
+        <div data-aos="fade-up">
           <img src={Phone} />
           <Typography variant="h6" component="h6" style={{ fontWeight: 'bold' }}>
             CRIE SUA CONTA
@@ -25,7 +25,7 @@ export function SectionTutorial() {
             Crie sua conta online em menos de 1 minuto clicando aqui.
           </Typography>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src={Check} />
           <Typography variant="h6" component="h6" style={{ fontWeight: 'bold' }}>
             ESCOLHA SEU PLANO
@@ -34,7 +34,7 @@ export function SectionTutorial() {
             Quando fizer seu primeiro acesso, você deve escolher o seu plano.
           </Typography>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src={Share} />
           <Typography variant="h6" component="h6" style={{ fontWeight: 'bold' }}>
             COMECE A USAR

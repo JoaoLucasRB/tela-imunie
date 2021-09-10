@@ -8,7 +8,7 @@ import PeopleMockup from '../../assets/people_mockup.png';
 export function SectionDigitalWallet() {
   return (
     <Container>
-      <span>
+      <span data-aos="fade-up">
         <Typography variant="h4" component="h4" style={{ fontWeight: 'bold', color: '#2d3748' }}>
           Por que uma Carteira Digital?
         </Typography>
@@ -21,7 +21,7 @@ export function SectionDigitalWallet() {
           <div>
             <section>
               <List component="ul">
-                <ListItem>
+                <ListItem data-aos="fade-up">
                   <ListItemAvatar>
                     <span>
                       <img src={Privacy} />
@@ -36,7 +36,7 @@ export function SectionDigitalWallet() {
                     </Typography>
                   </ListItemText>
                 </ListItem>
-                <ListItem>
+                <ListItem data-aos="fade-up">
                   <ListItemAvatar>
                     <span>
                       <img src={Logic} />
@@ -51,7 +51,7 @@ export function SectionDigitalWallet() {
                     </Typography>
                   </ListItemText>
                 </ListItem>
-                <ListItem>
+                <ListItem data-aos="fade-up">
                   <ListItemAvatar>
                     <span>
                       <img src={MobileChat} />

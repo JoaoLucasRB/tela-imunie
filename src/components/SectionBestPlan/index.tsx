@@ -5,7 +5,7 @@ import HouseImg from '../../assets/relax-working.svg';
 export function SectionBestPlan() {
   return (
     <Container>
-      <span>
+      <span data-aos="fade-up">
         <Typography variant="h4" component="h4" style={{ fontWeight: 'bold' }}>
           Qual o melhor plano para mim?
         </Typography>
@@ -14,7 +14,7 @@ export function SectionBestPlan() {
         </Typography>
       </span>
       <div>
-        <div>
+        <div data-aos="fade-up">
           <img src={HouseImg} />
           <div>
             <Typography variant="h6" component="h6" style={{ fontWeight: 'bold' }}>
@@ -30,7 +30,7 @@ export function SectionBestPlan() {
             </Button>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src={HouseImg} />
           <div>
             <Typography variant="h6" component="h6" style={{ fontWeight: 'bold' }}>

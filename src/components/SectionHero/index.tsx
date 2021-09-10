@@ -7,7 +7,7 @@ export function SectionHero() {
   return (
     <Container>
       <Hero>
-        <section>
+        <section data-aos="fade-up">
           <Typography variant="h3" component="h3" style={{ fontWeight: 'bold', color: '#2d3748' }}>
             Carteira digital de vacinação e saúde
           </Typography>

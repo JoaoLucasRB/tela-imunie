@@ -14,6 +14,9 @@ import { SectionTutorial } from './components/SectionTutorial';
 import { SectionPlans } from './components/SectionPlans';
 import { SectionPrograms } from './components/SectionPrograms';
 import { SectionBestPlan } from './components/SectionBestPlan';
+import AOS from 'aos';
+
+import 'aos/dist/aos.css';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,6 +38,8 @@ createServer({
 
 function App() {
   const classes = useStyles();
+
+  AOS.init()
 
   return (
     <ThemeProvider theme={defaultTheme}>

@@ -7,7 +7,7 @@ import PWA from '../../assets/pwa_pass_3.svg';
 export function SectionGlobalStandard() {
   return (
     <Container>
-      <span>
+      <span data-aos="fade-up">
         <Typography variant="h4" component="h4" style={{ fontWeight: 'bold', color: 'white' }}>
           Padrão global de gestão e serviços
         </Typography>
@@ -16,7 +16,7 @@ export function SectionGlobalStandard() {
         </Typography>
       </span>
       <div>
-        <div>
+        <div data-aos="fade-up">
           <img src={LBS} />
           <Typography variant="h6" component="h6" style={{ fontWeight: 'bold', color: 'white' }}>
             LBS Incubator
@@ -25,7 +25,7 @@ export function SectionGlobalStandard() {
             Temos orgulho de fazer parte da edição 2020-2021 da Incubadora da London Business School, uma das melhores escolas de negócios do mundo.
           </Typography>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src={AWS} />
           <Typography variant="h6" component="h6" style={{ fontWeight: 'bold', color: 'white' }}>
             Amazon Web Services
@@ -34,7 +34,7 @@ export function SectionGlobalStandard() {
             A infraestrutura em nuvem global mais segura, abrangente e confiável para aplicativos.
           </Typography>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <img src={PWA} />
           <Typography variant="h6" component="h6" style={{ fontWeight: 'bold', color: 'white' }}>
             PWA

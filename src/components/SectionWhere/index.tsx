@@ -8,7 +8,7 @@ import Travel from '../../assets/travel.svg';
 export function SectionWhere() {
   return (
     <Container>
-      <span>
+      <span data-aos="fade-up">
         <Typography variant="h4" component="h4" style={{ fontWeight: 'bold', color: '#2d3748' }}>
           Aonde usar
         </Typography>
@@ -20,7 +20,7 @@ export function SectionWhere() {
         <Grid container spacing={4}>
           <Grid item xs={8}>
             <List component="ul">
-              <ListItem>
+              <ListItem data-aos="fade-up">
                 <ListItemAvatar>
                   <img src={Clinics} />
                 </ListItemAvatar>
@@ -35,7 +35,7 @@ export function SectionWhere() {
                   </span>
                 </ListItemText>
               </ListItem>
-              <ListItem>
+              <ListItem data-aos="fade-up">
                 <ListItemAvatar>
                   <img src={Schools} />
                 </ListItemAvatar>
@@ -50,7 +50,7 @@ export function SectionWhere() {
                   </span>
                 </ListItemText>
               </ListItem>
-              <ListItem>
+              <ListItem data-aos="fade-up">
                 <ListItemAvatar>
                   <img src={Travel} />
                 </ListItemAvatar>
@@ -65,7 +65,7 @@ export function SectionWhere() {
                   </span>
                 </ListItemText>
               </ListItem>
-              <ListItem>
+              <ListItem data-aos="fade-up">
                 <ListItemAvatar>
                   <img src={SportEvents} />
                 </ListItemAvatar>
@@ -83,7 +83,7 @@ export function SectionWhere() {
             </List>
           </Grid>
           <Grid item xs={4}>
-            <div className='container-legislation'>
+            <div className='container-legislation' data-aos="fade-up">
               <Typography variant="h6" component="h6" style={{ fontWeight: 'bold', color: 'white' }}>
                 O que diz a Legislação?
               </Typography>
@@ -96,7 +96,7 @@ export function SectionWhere() {
                 </Typography>
               </Button>
             </div>
-            <div className='container-calendars'>
+            <div className='container-calendars' data-aos="fade-up">
               <Typography variant="h6" component="h6" style={{ fontWeight: 'bold', color: '#2d3748' }}>
                 Confira os principais Calendários de Vacinação
               </Typography>
